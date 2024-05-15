@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Animus UI/UX presentation.
+![alt animus logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKOYtZaosnVSjZbELRwZFUqd-3pBD7OQvQvI0FpXDlw&s)
 
-## Getting Started
+#### A mini pokedex in next Js 14
+This little application was created to present in the university of Rio Negro.
+Here you'll find a few react components, written in different style structures.
+The server side part in this kind of projects is identified by the following way:
 
-First, run the development server:
+`'use server' //for server components`
+`'use client' // for the client components`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can visit our web site, and remember the the exit is collaborative.
+[Animus awesome web page!](https://animus.coop/en)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Previous to installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Please considere install the last node version. =)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### To run project locally
+1. npm i
+2. npm run dev
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

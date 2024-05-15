@@ -47,7 +47,7 @@ export const PokemonScoreBar: React.FC<Props> = ({ label, value }) => {
       <Label>{label}</Label>
       <PokemonValueBar>
         <PokemonValue>{value}</PokemonValue>
-        <PokemonBar width={value}></PokemonBar>
+        <PokemonBar width={value/2}></PokemonBar>
       </PokemonValueBar>
     </Wrapper>
   );

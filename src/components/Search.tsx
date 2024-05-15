@@ -1,5 +1,6 @@
+"use client";
 import { SearchIcon } from "@/components/SearchIcon";
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -41,23 +42,37 @@ const ButtonImageSearch = styled.button`
   right: 16px;
   top: 50%;
   transform: translateY(-50%);
-  &:hover, &:focus,
-  &:focus-visible{
+  &:hover,
+  &:focus,
+  &:focus-visible {
     color: red;
   }
 `;
 
 type Props = {
-  text: string;
+  setPokemons: (text:string) => void;
 };
 
-export const Search: React.FC<Props> = ({ text }) => {
+export const Search: React.FC<Props> = ({ setPokemons }) => {
+  const [text, setText] = useState("");
   return (
     <Wrapper>
-      <InputSearch type="text" placeholder="Buscar por nombre" />
-        <ButtonImageSearch aria-label="Search pokemon">
-          <SearchIcon />
-        </ButtonImageSearch>
+      <InputSearch
+        onChange={(e: any) => {
+          setText(e.target.value);
+          setPokemons(e.target.value);
+        }}
+        type="text"
+        placeholder="Buscar por nombre"
+      />
+      <ButtonImageSearch
+        onClick={() => {
+          setPokemons(text);
+        }}
+        aria-label="Search pokemon"
+      >
+        <SearchIcon />
+      </ButtonImageSearch>
     </Wrapper>
   );
 };
