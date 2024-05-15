@@ -2,21 +2,21 @@
 ![alt animus logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKOYtZaosnVSjZbELRwZFUqd-3pBD7OQvQvI0FpXDlw&s)
 
 #### A mini pokedex in next Js 14
-This little application was created to present in the university of Rio Negro.
+This little application was created to present at the University of Rio Negro.
 Here you'll find a few react components, written in different style structures.
-The server side part in this kind of projects is identified by the following way:
+The server side part in this kind of project is identified in the following way:
 
-`'use server' //for server components`
-`'use client' // for the client components`
+`'use server' //for server components
+`'use client' //for the client components`
 
-You can visit our web site, and remember the the exit is collaborative.
+You can visit our website, and remember that the exit is collaborative.
 [Animus awesome web page!](https://animus.coop/en)
 
 ### Previous to installation
 
-Please considere install the last node version. =)
+Please consider installing the last node version. =)
 
-### To run project locally
+### To run the project locally
 1. npm i
 2. npm run dev
 
