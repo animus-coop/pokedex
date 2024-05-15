@@ -7,7 +7,6 @@ Here you'll find a few react components, written in different style structures.
 The server side part in this kind of project is identified in the following way:
 
 `'use server' //for server components
-`'use client' //for the client components`
 
 You can visit our website, and remember that the exit is collaborative.
 [Animus awesome web page!](https://animus.coop/en)
