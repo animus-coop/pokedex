@@ -1,5 +1,5 @@
 # Animus UI/UX presentation.
-![alt animus logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKOYtZaosnVSjZbELRwZFUqd-3pBD7OQvQvI0FpXDlw&s)
+![screen](https://github.com/animus-coop/pokedex/assets/38536964/76e0c4c1-d6f0-4914-9e03-15e267336e76)
 
 #### A mini pokedex in next Js 14
 This little application was created to present at the University of Rio Negro.
